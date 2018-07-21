@@ -9,5 +9,4 @@
     </head>
     <body>
         <h1>Fictional Universe</h1>
-    </body>
-</html>
+    <!-- Delete closing html and body tag -> footer -->
