@@ -12,5 +12,14 @@ function myFunction_files() {
     wp_enqueue_style('my_main_styles', get_stylesheet_uri(), NULL, microtime());
 }
 
+
 // Universal Wp function to load scripts (Hook)
 add_action('wp_enqueue_scripts', 'myFunction_files');
+
+// Function to get Title Tag in Tab
+function universityFeatures() {
+    add_theme_support('title-tag');
+}
+
+//
+add_action('after_setup_theme', 'universityFeatures');
