@@ -9,8 +9,8 @@
     </head>
     <body>
     <!-- Delete closing html and body tag -> footer -->
-    
-    <!-- Convert Static Html to WP
+
+    <!-- Convert Static Html to WP Header 
         ------------------------------------->
     <header class="site-header">
         <div class="container">
