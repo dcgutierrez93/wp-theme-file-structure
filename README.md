@@ -1,0 +1,1 @@
+# wp-theme-file-structure
