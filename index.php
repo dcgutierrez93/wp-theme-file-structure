@@ -3,7 +3,15 @@
     get_header();
 ?>
 
+<!-- Call Images Syntax
+    ----------------------------->
+    <!--
+    To Call By File Name
+    background-image:('wp-content/themes/themName/images/imgName.jpg');
 
+    To Call By Funciton Name
+    background-image:(<?php echo get_theme_file_uri('images/imageName.jpg')?>);
+    -->
 <div class="page-banner">
   <div class="page-banner__bg-image" style="background-image: url(images/library-hero.jpg);"></div>
     <div class="page-banner__content container t-center c-white">
